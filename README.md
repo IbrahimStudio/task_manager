@@ -5,11 +5,11 @@ Features
 •	Add, Remove, and Toggle Completion on tasks
 •	Persistent storage to tasks.txt (one task per line: id|completed|description)
 •	JavaFX-based GUI with a responsive list view and controls
-•	Clean separation of concerns using:
-o	Model: Task domain class
-o	Repository: TaskRepository interface + TextFileTaskRepository implementation
-o	Service: TaskService interface + TaskServiceImpl
-o	UI: JavaFX MainApp in com.example.taskmanager.ui package
+• Clean separation of concerns using:
+  o	Model: Task domain class
+  o	Repository: TaskRepository interface + TextFileTaskRepository implementation
+  o	Service: TaskService interface + TaskServiceImpl
+  o	UI: JavaFX MainApp in com.example.taskmanager.ui package
 ________________________________________
 Prerequisites
 •	JDK 11 (or newer) installed and on your PATH
